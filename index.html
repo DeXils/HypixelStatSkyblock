@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link href="css/style.css" rel="stylesheet">
+    <title>Statistiques [-Skyblock Hypixel-]</title>
+</head>
+<body >
+<main class="grid">
+    <div class="search-player">
+        <p>Afficher les statistique pour : </p>
+        <input name="" type="search" placeholder="Pseudo du joueur" id="searchInput">
+        <button type="submit" id="searchButton">Afficher</button>
+    </div>
+
+    <div class="main-info">
+        <h1 id="currentPlayer">Nombre de joueur présent sur le Skyblock : </h1>
+        <ul class="info-modes">
+            <li class="info-mode">
+                <img src="img/SkyblockInfos/Hub.png" alt="Hub">
+                <h2 id="currentHubPlayer">Hub : </h2>
+            </li>
+            <li class="info-mode">
+                <img src="img/SkyblockInfos/Farming.png" alt="">
+                <h2 id="currentGardenPlayer">Garden : </h2>
+            </li>
+            <li class="info-mode">
+                <img src="img/SkyblockInfos/Mining.png">
+                <h2 id="currentMiningPlayer">Mining : </h2>
+            </li>
+            <li class="info-mode">
+                <img src="img/SkyblockInfos/Dungeon.png">
+                <h2 id="currentDungeonPlayer">Dungeon : </h2>
+            </li>
+        </ul>
+
+
+    </div>
+
+</main>
+
+<script src="js/view.js"></script>
+<script src="js/model.js"></script>
+<script src="js/controller.js"></script>
+
+
+</body>
+</html>
